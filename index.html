@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="Style/style.css">
+
+        <!-- Bootstrap CSS 5.1.3 - 04/2022 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- Fonte do texto -->
+        <title>MetaFlix - Assistir Filmes Online</title>
+
+        <!-- Icone -->
+        <link rel="shortcut icon" href="Favicon_io/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <img class="navbar-brand" src="Favicon_io/android-chrome-192x192.png" alt="logo">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#lancamentos">Lançamentos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#destaques">Em destaque</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#avaliacoes">Avaliações</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#entrevistas">Entrevistas & Making of</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#novidades">Novidades</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Pesquisar filme"
+                                    aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+                <!-- Bloco de Lançamento -->
+                <section>
+                    <div class="container main">
+                        <i class="fa fa-align-center" aria-hidden="true">
+                        <h2 class="lancamentos" id="lancamentos">Lançamentos</h2></i>
+                    </div>
+                    <div class="container">
+                    <div class="row">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                            </div>
+
+                    <!-- Filme -->                   
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-12 col-xl-6">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HJv4LQxbVEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <div class="row ">
+                                        <div class="col-12">
+                                            <h2 class="texttitle"><b>Batman</b></h2>
+                                        </div>
+                                        <div class="col-12">
+                                            <p><b>Sinopse:</b> <strong>Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.</strong></p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row ">
+                                        <div class="col-12 col-sm-6 col-md-4 col-xl-4">
+                                            <p><b>Diretor:</b> <strong>Matt Reeves.</strong></p>
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-xl-4">
+                                        <p><b>Roteiro:</b> <strong>Matt Reeves, Peter Craig</strong>.</p> 
+                                        </div>
+
+                                        <div class="col-12 col-sm-6 col-md-4 col-xl-4">
+                                            <p><b>Estreia:</b> <strong>2022.</strong></p>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <p><b>Elenco:</b> <strong>Robert Pattinson, Paul Dano, Jeffrey Wright, John Turturro, Colin Farrell, Jayme Lawson, Andy Serkis.</strong></p>
+                                        </div>
+                                        
+                                        <div class="col-12">
+                                            <p><b>Avaliação:</b></p>
+                                            <p>★★★★★</p><br>
+                                        </div>
+                                    <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <!-- Bloco de Destaque -->
+            <div class="container" id="dst1">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="destaques" id="destaques">Em destaque</h2>
+                    </div>
+                    <div class="col-6">
+                        <div class="dropdown" style="text-align: right;">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Categoria: TODOS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Ação</a></li>
+                                <li><a class="dropdown-item" href="#">Animação</a></li>
+                                <li><a class="dropdown-item" href="#">Aventura</a></li>
+                                <li><a class="dropdown-item" href="#">Comédia</a></li>
+                                <li><a class="dropdown-item" href="#">Drama</a></li>
+                                <li><a class="dropdown-item" href="#">Ficção</a></li>
+                                <li><a class="dropdown-item" href="#">Romance</a></li>
+                                <li><a class="dropdown-item" href="#">Suspense</a></li>
+                                <li><a class="dropdown-item" href="#">Terror</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-sm-6  col-lg-3">
+                        <div class="card" widht="100%">
+                            <img src="Imgs/Etenos.jpg" class="card-img-top" alt="filme1">
+                            <div class="card-body">
+                                <p class="card-text"><b>ETERNOS</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-sm-6 col-lg-3">
+                        <div class="card" widht="100%">
+                            <img src="Imgs/Homem Aranha.jpeg" class="card-img-top" alt="filme1">
+                            <div class="card-body">
+                                <p class="card-text"><b>HOMEM-ARANHA: SEM VOLTA PARA CASA</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-sm-6  col-lg-3">
+                        <div class="card" widht="100%">
+                            <img src="Imgs/Kingsman a Origem.jpg" class="card-img-top" alt="filme1">
+                            <div class="card-body">
+                                <p class="card-text"><b>KING'S MAN: A ORIGEM</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-sm-6  col-lg-3">
+                        <div class="card" widht="100%">
+                            <img src="Imgs/Panico 5.jpg" class="card-img-top" alt="filme1">
+                            <div class="card-body">
+                                <p class="card-text"><b>PÂNICO 5</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+]
+            <div class="container" style="text-align: right; margin-top: 10px;">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>&nbsp;
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloco de Avaliação pelos Usuários -->
+            <div class="container">
+                <h2 class="avaliacoes" id="avaliacoes">Últimas avaliações</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                <div class="col-10  col-md-6  col-xl-4"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="profile-header-container">
+                                        <img class="img-circle" src="./Imgs/A (2).jpg" height="100%" width="100%" />
+                                    </div>
+                                </div>
+
+                                <div class="col-9">
+                                    <h6>Paulo Leandro Nascimento</h6>
+                                    <p class="aval"><b>Avaliação:</b> Um dos melhores filmes de super-herói que eu já assisti, na minha opinião tudo estava incrível nele.</p>
+                                    <p><b>★★★★★ - 17/04/2022</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10  col-md-6  col-xl-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="profile-header-container">
+                                        <img class="img-circle" src="./Imgs/A (3).jpg" height="100%" width="100%" />
+                                    </div>
+                                </div>
+
+                                <div class="col-9">
+                                    <h6>Sabrina Joana Benedita Castro</h6>
+                                    <p class="aval"><b>Avaliação:</b> Longe de ser perfeito, mas continua sendo uma ótima adaptação.</p>
+                                    <p><b>★★★★☆ - 16/04/2022</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10  col-md-6  col-xl-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="profile-header-container">
+                                        <img class="img-circle" src="./Imgs/A (1).jpg" height="100%" width="100%" />
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <h6>André Thomas Renato Assunção</h6>
+                                    <p  class="aval"><b>Avaliação:</b> Bom filme, cenas marcantes como as dos passos do Batman. O roteiro não supera o Cavaleiro das trevas, na verdade, não supera nem o Begins.</p>
+                                    <p><b>★★★☆☆ - 15/04/2022</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="text-align: right; margin-top: 10px;">
+                <div class="row">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais avaliações</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloco de Entrevistas & Making of -->
+            <section>
+                <div class="container">
+                    <h2 class="entrevistas" id="entrevistas">Entrevistas & Making of</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3 video">
+                            <iframe width="360" height="200" src="https://www.youtube.com/embed/1T0Dr8GIyCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3">
+                            <p><b>Filme:</b> <strong>Morbius.</strong><br>
+                                <b>Diretor:</b> <strong>Daniel Espinosa.</strong><br>
+                                <b>Roteiro:</b> <strong>Matt Sazama, Burk Sharpless.</strong><br>
+                                <b>Estreia:</b> <strong>31 de março de 2022.</strong>
+                            </p>
+                        </div>
+        
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3 video">
+                            <iframe width="360" height="200" src="https://www.youtube.com/embed/fAbVdvqPJkc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3">
+                            <p><b>Filme:</b> <strong>Animais Fantásticos: Os Segredos de Dumbledore.</strong><br>
+                                <b>Diretor:</b> <strong>David Yates.</strong><br>
+                                <b>Roteiro:</b> <strong>J. K. Rowling, Steve Kloves.</strong><br>
+                                <b>Estreia:</b> <strong>14 de abril de 2022.</strong>
+                            </p>
+                        </div>
+
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3 video">
+                            <iframe width="360" height="200" src="https://www.youtube.com/embed/gwSuk8wXjtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3">
+                            <p><b>Filme:</b> <strong>Homem-Aranha: Sem Volta para Casa.</strong><br>
+                                <b>Diretor:</b> <strong>Jon Watts.</strong><br>
+                                <b>Roteiro:</b> <strong>Erik Sommers, Chris McKenna.</strong><br>
+                                <b>Estreia:</b> <strong>16 de dezembro de 2021.</strong>
+                            </p>
+                        </div>
+        
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3 video">
+                            <iframe width="360" height="200" src="https://www.youtube.com/embed/1w_v88xCeaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-10 col-sm-10 col-md-6 col-lg-6 col-xl-3">
+                            <p><b>Filme:</b> <strong>Doutor Estranho no Multiverso da Loucura.</strong><br>
+                                <b>Diretor:</b> <strong>Sam Raimi.</strong><br>
+                                <b>Roteiro:</b> <strong>Michael Waldron, Jade Bartlett.</strong><br>
+                                <b>Estreia:</b> <strong>5 de maio de 2022.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                <div class="container" style="text-align: right; margin-top: 10px;">
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Novidades -->
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <h2 class="novidades" id="novidades">Novidades</h2>
+                    <div class="container">
+                        <div class="row res">
+                            <div class="col-xs-12 col-11 col-md-4">
+                                <img class="imgedit" src="./Imgs/avatar.jpg" alt="imagem1">
+                            </div>
+                            <div class="col-xs-12 col-12 col-md-6">
+                                <h5>Avatar 2
+                                </h5>
+                                <p class="nov"> Se as pessoas acreditavam que Os Novos Mutantes era uma lenda urbana, é provável que elas não estejam acompanhando a novela que é o novo Avatar...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px;">
+                        <div class="row res">
+                            <div class="ol-xs-12 col-11 col-md-4">
+                                <img class="imgedit"  src="./Imgs/thor.jpg" alt="imagem1">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <h5>Thor: Love And Thunder
+                                </h5>
+                                <p class="nov"> Natalie Portman voltando ao Universo Cinematográfico da Marvel, Christian Bale vivendo um vilão icônico dos quadrinhos… </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 10px; margin-bottom: 15px;">
+                        <div class="row res">
+                            <div class="ol-xs-12 col-12 col-md-4">
+                                <img class="imgedit"  src="./Imgs/topgun.jpg" alt="imagem1">
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <h5>Top Gun: Maverick.
+                                </h5>
+                                <p class="nov"> Maverick foi adiado inúmeras vezes por conta da pandemia, mas estará em cartaz nos cinemas em 2022. E fiquem atentos: há rumores de que Lady Gaga cantará a nova música-tema da franquia. 
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+
+                    <!-- Bloco de Sobre -->
+                    <div class="col-4">
+
+                    
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Rodapé -->
+        <footer>
+            <div class="text-center p-3">
+                <p class="footertext">&copy; Copyright 2022 -Disciplina de Desenvolveimento de Interfazes Web - <b>ICEI PUC MINAS</b></p>
+            <link rel="shortcut icon" href="./Favicon_io/favicon.ico" type="image/x-icon">
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,187 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background: #212529;
+}
+
+main {
+    background: #212529;
+    margin: auto;
+}
+header{
+    min-height: auto;
+}
+.navbar-nav{
+    text-align: center;
+}
+h2 {
+    color: #FF3237;
+    text-shadow: 1px 1px 2px rgba(180, 36, 38, 0.75);
+    padding-top: 20px;
+}
+.lancamentos{
+    text-align: center;
+}
+
+.texttitle{
+    text-align: center;
+}
+
+h6 {
+    color: white;
+}
+
+h5 {
+    color: #FF3237;
+    padding: 5px;
+    text-align: auto;
+}
+
+h4 {
+    color: white;
+}
+
+.container.main{
+    padding: 0px;
+}
+
+.nov {
+    color: white;
+}
+
+a {
+    font-size: large;
+    margin-block: -5px;
+}
+
+b{
+    color: #F28E3E;
+    text-shadow:0.5px 0.5px 1px rgba(173, 103, 46, 0.40);
+}
+p {
+    color: #131613;
+}
+
+.aval{
+    color:white;
+    text-align: justify;
+}
+
+div.card{
+    background-color: #212529;
+    border: 0px;
+    background: 212529;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;  
+}
+
+.card img{
+    border-radius: 15px;
+}
+
+p.card-text {
+    color: rgb(252, 248, 248);
+    align-items: center;
+    text-align: center;
+}
+
+section{
+    background-color:hsla(0, 0%, 79%, 0.800) ;
+}
+
+.img-circle{
+    border-radius: 50%;
+    max-width: 50px;
+    min-width: 20px;
+}
+
+img.navbar-brand {
+    width: 60px;
+    height: 65px;
+    margin-right: 25px;
+}
+
+.container {
+    padding: 15px;
+}
+
+.dst1{
+    margin-top: 20px;
+}
+
+.carousel-indicators {
+    top: 95%;
+}
+
+.container-info {
+    margin-right: 18%;
+    margin-bottom: 20%;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item img {
+        width: 80%;
+        padding-left: 20%;
+    }
+
+    .container-info {
+        margin-top: 10%;
+        padding-left: 10%;
+        margin-right: 18%;
+        margin-bottom: 10%;
+    }
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+img.img-circle {
+    width: 100%;
+    height: 100%;
+}
+
+.footertext {
+    margin-top: 15px;
+    align-self: center;
+    color: #878787;
+}
+
+.imgedit{
+    margin: auto;
+    border-radius: 15px;
+}
+
+.res{
+
+    width: 500px;
+    text-align: justify;
+}
+
+div.video{
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 13%;
+    height: 190px;
+}
+div.video > iframe{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 90% ;
+    height: 90% ;
+}
